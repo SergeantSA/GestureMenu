@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5CE6F4791B7A708800D1E346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6F4781B7A708800D1E346 /* AppDelegate.swift */; };
-		5CE6F47B1B7A708800D1E346 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6F47A1B7A708800D1E346 /* GameScene.sks */; };
 		5CE6F47D1B7A708800D1E346 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6F47C1B7A708800D1E346 /* GameScene.swift */; };
 		5CE6F47F1B7A708800D1E346 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6F47E1B7A708800D1E346 /* GameViewController.swift */; };
 		5CE6F4821B7A708800D1E346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6F4801B7A708800D1E346 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		5CE6F4731B7A708800D1E346 /* GestureMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE6F4771B7A708800D1E346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CE6F4781B7A708800D1E346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CE6F47A1B7A708800D1E346 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5CE6F47C1B7A708800D1E346 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5CE6F47E1B7A708800D1E346 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5CE6F4811B7A708800D1E346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,9 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				5CE6F4781B7A708800D1E346 /* AppDelegate.swift */,
-				5CE6F47A1B7A708800D1E346 /* GameScene.sks */,
-				5CE6F47C1B7A708800D1E346 /* GameScene.swift */,
 				5CE6F47E1B7A708800D1E346 /* GameViewController.swift */,
+				5CE6F47C1B7A708800D1E346 /* GameScene.swift */,
 				5CE6F4801B7A708800D1E346 /* Main.storyboard */,
 				5CE6F4831B7A708800D1E346 /* Images.xcassets */,
 				5CE6F4851B7A708800D1E346 /* LaunchScreen.xib */,
@@ -200,7 +197,6 @@
 			files = (
 				5CE6F4871B7A708800D1E346 /* LaunchScreen.xib in Resources */,
 				5CE6F4841B7A708800D1E346 /* Images.xcassets in Resources */,
-				5CE6F47B1B7A708800D1E346 /* GameScene.sks in Resources */,
 				5CE6F4821B7A708800D1E346 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
